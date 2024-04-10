@@ -13,7 +13,7 @@ Copy code
 ```composer require google/cloud-bard```
 For OpenAI, you can use the official PHP library provided by OpenAI. Install it via Composer:
 
-Copy code
+
 ```composer require openai-php/openai```
 Set up a route and controller method
 Create a new route in routes/web.php for handling the chat requests:
@@ -22,6 +22,7 @@ php
 
 Copy code
 ```Route::get('/research', 'ChatController@show')->name('chat.show');```
+
 ```Route::post('/research', 'ChatController@generateResponse')->name('chat.generate');```
 Create a new controller (ChatController.php) with methods to handle the routes:
 php
