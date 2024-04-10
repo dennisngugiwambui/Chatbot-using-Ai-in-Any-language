@@ -24,6 +24,9 @@ Copy code
 ```Route::get('/research', 'ChatController@show')->name('chat.show');```
 
 ```Route::post('/research', 'ChatController@generateResponse')->name('chat.generate');```
+
+
+
 Create a new controller (ChatController.php) with methods to handle the routes:
 php
 ```
