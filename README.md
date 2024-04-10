@@ -20,7 +20,6 @@ Create a new route in routes/web.php for handling the chat requests:
 php
 
 
-Copy code
 ```Route::get('/research', 'ChatController@show')->name('chat.show');```
 
 ```Route::post('/research', 'ChatController@generateResponse')->name('chat.generate');```
