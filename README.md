@@ -11,7 +11,7 @@ For Google Bard, you can use the official Google Cloud Client Library for PHP. I
 
 
 ```composer require google/cloud-bard```
-For OpenAI, you can use the official PHP library provided by OpenAI. Install it via Composer:
+For OpenAI, you can use the official PHP library provided by OpenAI. Install it via Composer
 
 
 ```composer require openai-php/openai```
