@@ -16,7 +16,7 @@ For OpenAI, you can use the official PHP library provided by OpenAI. Install it 
 
 ```composer require openai-php/openai```
 Set up a route and controller method
-Create a new route in routes/web.php for handling the chat requests
+Create a new route in routes/web.php for handling the chat requests;
 php
 
 
